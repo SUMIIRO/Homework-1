@@ -1,0 +1,45 @@
+.sm-body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+.sm-box{
+  width: 200px;
+  height: 200px;
+
+  margin: 20px;
+}
+.sm-box--red{
+  background-color: red;
+}
+.sm-box--blue{
+  background-color: blue;
+}
+.sm-box--left{
+  float: left;
+}
+.sm-box--right{
+  float: right;
+}
+.sm-row{
+  width: 100%
+  position: relative;
+  overflow: hidden;
+  opacity: 0.3;
+
+}
+.sm-box--circle{
+  border-radius: 50%;
+}
+.sm-row1{
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0.5;
+}
+.sm-row2{
+  position: absolute;
+  right: 40;
+  top: 40;
+  opacity: 0.4;
